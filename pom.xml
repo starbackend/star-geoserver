@@ -10,7 +10,7 @@
 	</parent>
 	
 	<properties>
-		<rpm.appname>star-geoserver</rpm.appname>
+		<star-env.appname>star-geoserver</star-env.appname>
 	</properties>
 
 	<version>0.0.1-SNAPSHOT</version>

@@ -15,6 +15,7 @@
 	<properties>
 		<rpm.username>geoserver</rpm.username>
 		<rpm.mainClass>org.cwatch.geoserver.CwatchGeoserverMain</rpm.mainClass>
+		<rpm.app.portDiscirminator>02</rpm.app.portDiscirminator>
 	</properties>
 
 	<dependencies>
