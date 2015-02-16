@@ -11,6 +11,7 @@
 	
 	<properties>
 		<star-env.appname>star-geoserver</star-env.appname>
+		<star-env.portDiscriminator>02</star-env.portDiscriminator>
 	</properties>
 
 	<version>0.0.1-SNAPSHOT</version>
@@ -34,5 +35,6 @@
 			</modules>
 		</profile>
 	</profiles>
+	
 
 </project>
