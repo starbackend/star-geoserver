@@ -18,8 +18,21 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>rpm</module>
-		<module>it</module>
+		<module>core</module>
 	</modules>
+	
+	<profiles>
+		<profile>
+			<activation>
+				<os>
+					<name>linux</name>
+				</os>
+			</activation>
+			<modules>
+				<module>rpm</module>
+				<module>it</module>
+			</modules>
+		</profile>
+	</profiles>
 
 </project>
