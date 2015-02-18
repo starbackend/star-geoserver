@@ -14,7 +14,6 @@
 
 	<properties>
 		<rpm.username>geoserver</rpm.username>
-		<rpm.mainClass>org.cwatch.geoserver.CwatchGeoserverMain</rpm.mainClass>
 	</properties>
 
 	<dependencies>
@@ -22,12 +21,6 @@
 			<groupId>star</groupId>
 			<artifactId>star-geoserver-core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.cwatch</groupId>
-			<artifactId>cwatch-geoserver-testing</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
