@@ -18,7 +18,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>core</module>
+		<module>base</module>
 	</modules>
 	
 	<build>
@@ -47,19 +47,17 @@
 		</plugins>
 	</build>
 	
-	<profiles>
-		<profile>
-			<activation>
-				<os>
-					<name>linux</name>
-				</os>
-			</activation>
-			<modules>
-				<module>rpm</module>
-				<module>it</module>
-			</modules>
-		</profile>
-	</profiles>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>star</groupId>
+				<artifactId>star-geoserver</artifactId>
+				<type>tar.gz</type>
+				<classifier>project</classifier>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	
 
 </project>
