@@ -24,7 +24,6 @@
 		<dependency>
 			<groupId>org.cwatch</groupId>
 			<artifactId>cwatch-geoserver-app</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 

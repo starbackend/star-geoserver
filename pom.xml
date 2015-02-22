@@ -5,12 +5,13 @@
 
 	<parent>
 		<groupId>star</groupId>
-		<artifactId>star-boot</artifactId>
+		<artifactId>star-boot-base</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
 	<properties>
 		<star-env.appname>star-geoserver</star-env.appname>
+		<cwatch-geoserver.version>0.0.1-SNAPSHOT</cwatch-geoserver.version>
 	</properties>
 
 	<version>0.0.1-SNAPSHOT</version>
