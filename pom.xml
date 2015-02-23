@@ -18,9 +18,6 @@
 	<artifactId>star-geoserver</artifactId>
 	<packaging>pom</packaging>
 
-	<modules>
-		<module>base</module>
-	</modules>
 	
 	<build>
 		<plugins>
@@ -59,6 +56,10 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	
+	<modules>
+		<module>base</module>
+	</modules>
 	
 
 </project>
