@@ -19,7 +19,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.cwatch</groupId>
-			<artifactId>cwatch-geoserver-app</artifactId>
+			<artifactId>cwatch-geoserver-core</artifactId>
 		</dependency>
 	</dependencies>
 
