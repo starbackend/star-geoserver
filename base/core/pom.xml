@@ -14,13 +14,31 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.geoserver</groupId>
+			<artifactId>gs-wms</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.servlet</groupId>
+					<artifactId>servlet-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.geoserver</groupId>
+			<artifactId>gs-wfs</artifactId>
+		</dependency>
+		
+		<dependency>
 			<groupId>star</groupId>
 			<artifactId>star-boot-webapp</artifactId>
 		</dependency>
+		
 		<dependency>
-			<groupId>org.cwatch</groupId>
-			<artifactId>cwatch-geoserver-core</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
+		
 	</dependencies>
 
 	<build>
@@ -31,6 +49,19 @@
 			</resource>
 		</resources>
 	</build>
+
+	<repositories>
+		<repository>
+			<id>boundlessgeo</id>
+			<url>http://repo.boundlessgeo.com/main/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 
 </project>
